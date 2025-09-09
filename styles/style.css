@@ -119,11 +119,12 @@
 .staff__cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
-  padding-left: 0;
+  padding: 0;
   max-width: 760px;
-  margin: 0 auto;
+  margin: 68px auto 0;
+  list-style-type: none;
 }
 
 .card {
@@ -133,7 +134,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  list-style-type: none;
 }
 
 .card__content {
